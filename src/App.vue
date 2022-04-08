@@ -1,30 +1,33 @@
+//App.vue 是Vue项目的开始文件
 <template>
   <div id="app">
 	  
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld />
+    <!-- <img alt="Vue logo" src="./assets/logo.png">
+    <HelloWorld /> -->
 	<router-view></router-view>
+	
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
-  components: {
-    HelloWorld
-  }
+  //选在在component中的组件，并传送
+  // components: {
+  //   HelloWorld
+  // }
 }
 </script>
 
 <style>
+	html,body{
+			margin: 0;
+			padding: 0;
+		}
+	
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+	height: 100vh;
 }
 </style>
