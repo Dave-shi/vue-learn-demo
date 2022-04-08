@@ -5,7 +5,7 @@ import App from './App.vue'
 // import ElementUI from 'element-ui';
 
 //按需导入ElementUi需要的组件
-import { Button,Radio,Container,Aside,Header,Main,Menu,Submenu,MenuItem,MenuItemGroup,Dropdown,DropdownMenu,DropdownItem } from 'element-ui';
+import { Table,TableColumn,Button,Radio,Container,Aside,Header,Main,Menu,Submenu,MenuItem,MenuItemGroup,Dropdown,DropdownMenu,DropdownItem,Row,Card,Col } from 'element-ui';
 
 //导入ElementUI的样式文件
 import 'element-ui/lib/theme-chalk/index.css';
@@ -33,6 +33,12 @@ Vue.use(MenuItemGroup)
 Vue.use(Dropdown)
 Vue.use(DropdownItem)
 Vue.use(DropdownMenu)
+Vue.use(Row)
+Vue.use(Card)
+Vue.use(Col)
+Vue.use(Table)
+Vue.use(TableColumn)
+
 
 
 
